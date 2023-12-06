@@ -21,6 +21,7 @@ namespace VehicleApi.Services
         public async Task Create(Vehicle vehicle)
         {
             await _context.Vehicles.AddAsync(vehicle);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<Vehicle> Read(int id)
