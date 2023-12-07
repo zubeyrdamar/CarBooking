@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleApi", "VehicleApi\VehicleApi.csproj", "{FB1951A5-151A-4B2B-A99F-1AB03A404E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi", "VehicleApi\VehicleApi.csproj", "{FB1951A5-151A-4B2B-A99F-1AB03A404E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{26238A4D-D60C-4894-98FC-1C2B12AC2E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{26238A4D-D60C-4894-98FC-1C2B12AC2E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationApi", "ReservationApi\ReservationApi.csproj", "{9B96CBB9-A64E-47ED-8C29-56B3A4ECCDCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationApi", "ReservationApi\ReservationApi.csproj", "{9B96CBB9-A64E-47ED-8C29-56B3A4ECCDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{0F139338-54E1-4BA5-9663-05E8548DF7F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9B96CBB9-A64E-47ED-8C29-56B3A4ECCDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B96CBB9-A64E-47ED-8C29-56B3A4ECCDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B96CBB9-A64E-47ED-8C29-56B3A4ECCDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F139338-54E1-4BA5-9663-05E8548DF7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F139338-54E1-4BA5-9663-05E8548DF7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F139338-54E1-4BA5-9663-05E8548DF7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F139338-54E1-4BA5-9663-05E8548DF7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
