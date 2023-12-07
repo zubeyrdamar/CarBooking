@@ -32,9 +32,9 @@ namespace CustomerApi.Services
             // AZURE MESSAGING BUS 
 
             Console.WriteLine("Message Sending...");
-            
-            string connectionString = "Endpoint = sb://carbookingtestdrive.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=NPLm3gQZXkoctCug1UheOiu1+0aqZ/RFz+ASbBKGWp0=";
-            string queueName = "azureorderqueue";
+
+            string connectionString = "<Connection String>";
+            string queueName = "<Queue Name>";
             // since ServiceBusClient implements IAsyncDisposable we create it with "await using"
             await using var client = new ServiceBusClient(connectionString);
             
